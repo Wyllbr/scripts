@@ -7,20 +7,20 @@
 #   - bash pingar.sh vlan 1 2 3 4 5 6....
  
 
-
-#variaveis
 vlan=$1
+#variaveis
+vlan_bloco=$2
 #elimina o primeiro argumento
-shift
+#shift
 #lista de argumento restantes
-range=$@
+range=$3
 
 
-for i in ${range[@]}; do
-    if ping -c 2 10.10.$vlan.$i > /dev/null; then
-        echo "O ip 10.10.$vlan.$i está acessível"
+for i in $(seq 1 $range); do
+    if ping -c 2 10.$vlan.$vlan_bloco.$i > /dev/null; then
+        echo "O ip 10.$vlan.$vlan_bloco.$i está acessível"
     else
-        echo "O ip 10.10.$vlan.$ip não está acessível"
+        echo "O ip 10.$vlan.$vlan_bloco.$ip não está acessível"
     fi
     echo $i
 done
