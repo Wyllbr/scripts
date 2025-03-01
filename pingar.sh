@@ -18,9 +18,11 @@ range=$3
 
 for i in $(seq 1 $range); do
     if ping -c 2 10.$vlan.$vlan_bloco.$i > /dev/null; then
-        echo "O ip 10.$vlan.$vlan_bloco.$i está acessível"
+        echo "O ip 10.$vlan.$vlan_bloco.$i está acessível" 
+        echo -e "\U1F600"
     else
         echo "O ip 10.$vlan.$vlan_bloco.$ip não está acessível"
+         echo -e "\U1fae0"
     fi
     echo $i
 done

@@ -1,0 +1,463 @@
+🔹 Buscando hosts do grupo no Zabbix...
+passou
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.49 do host HPE StoreEver MSL2024 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.49 com hostname HPE StoreEver MSL2024 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.49
+NOME - HPE StoreEver MSL2024
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.083}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.206.200.150 do host HP Server no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.206.0.0/16
+7
+➕ Adicionando IP 10.206.200.150 com hostname HP Server no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.206.200.150
+NOME - HP Server
+MAC - 
+ID DE SUBREDE - 7
+{"code":409,"success":false,"message":"IP address already exists","time":0.009}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.101 do host ILO Blade 1 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.101 com hostname ILO Blade 1 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.101
+NOME - ILO Blade 1
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.01}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.102 do host ILO Blade 2 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.102 com hostname ILO Blade 2 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.102
+NOME - ILO Blade 2
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.025}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.103 do host ILO Blade 3 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.103 com hostname ILO Blade 3 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.103
+NOME - ILO Blade 3
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.023}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.104 do host ILO Blade 4 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.104 com hostname ILO Blade 4 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.104
+NOME - ILO Blade 4
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.008}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.105 do host ILO Blade 5 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.105 com hostname ILO Blade 5 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.105
+NOME - ILO Blade 5
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.032}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.106 do host ILO Blade 6 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.106 com hostname ILO Blade 6 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.106
+NOME - ILO Blade 6
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.009}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.107 do host ILO Blade 7 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.107 com hostname ILO Blade 7 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.107
+NOME - ILO Blade 7
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.009}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.108 do host ILO Blade 8 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.108 com hostname ILO Blade 8 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.108
+NOME - ILO Blade 8
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.016}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.109 do host ILO Blade 9 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.109 com hostname ILO Blade 9 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.109
+NOME - ILO Blade 9
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.017}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.10.206.110 do host ILO Blade 10 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.10.0.0/16
+118
+➕ Adicionando IP 10.10.206.110 com hostname ILO Blade 10 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.10.206.110
+NOME - ILO Blade 10
+MAC - 
+ID DE SUBREDE - 118
+{"code":409,"success":false,"message":"IP address already exists","time":0.014}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.15.4.1 do host RFS7000 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.15.0.0/16
+120
+➕ Adicionando IP 10.15.4.1 com hostname RFS7000 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.15.4.1
+NOME - RFS7000
+MAC - 
+ID DE SUBREDE - 120
+{"code":409,"success":false,"message":"IP address already exists","time":0.015}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.51 do host vSphere Blade 1 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.51 com hostname vSphere Blade 1 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.51
+NOME - vSphere Blade 1
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.009}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.53 do host vSphere Blade 2 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.53 com hostname vSphere Blade 2 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.53
+NOME - vSphere Blade 2
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.016}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.55 do host vSphere Blade 3 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.55 com hostname vSphere Blade 3 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.55
+NOME - vSphere Blade 3
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.025}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.57 do host vSphere Blade 4 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.57 com hostname vSphere Blade 4 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.57
+NOME - vSphere Blade 4
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.009}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.59 do host vSphere Blade 5 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.59 com hostname vSphere Blade 5 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.59
+NOME - vSphere Blade 5
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.027}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.61 do host vSphere Blade 6 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.61 com hostname vSphere Blade 6 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.61
+NOME - vSphere Blade 6
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.035}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.63 do host vSphere Blade 7 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.63 com hostname vSphere Blade 7 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.63
+NOME - vSphere Blade 7
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.016}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.65 do host vSphere Blade 8 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.65 com hostname vSphere Blade 8 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.65
+NOME - vSphere Blade 8
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.016}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.67 do host vSphere Blade 9 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.67 com hostname vSphere Blade 9 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.67
+NOME - vSphere Blade 9
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.009}
+
+fim de uma interacao
+###########################
+
+######################################
+comeco de uma interacao
+
+🔍 Verificando IP 10.11.206.69 do host vSphere Blade 10 no phpIPAM...
+🚀 IP não encontrado no phpIPAM. Adicionando...
+10.11.0.0/16
+119
+➕ Adicionando IP 10.11.206.69 com hostname vSphere Blade 10 no phpIPAM...
+✅ Resposta do phpIPAM: 
+entrou no curl_add_ip
+
+IP - 10.11.206.69
+NOME - vSphere Blade 10
+MAC - 
+ID DE SUBREDE - 119
+{"code":409,"success":false,"message":"IP address already exists","time":0.023}
+
+fim de uma interacao
+###########################
+
+✅ Sincronização concluída!
