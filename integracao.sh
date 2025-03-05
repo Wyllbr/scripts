@@ -3,7 +3,7 @@
 # Configuração do Zabbix
 ZABBIX_URL="https://zabbix64.ufam.edu.br/api_jsonrpc.php"
 ZABBIX_TOKEN="35cf389316f46f41e34bd49cb0f577e5"
-HOSTGROUP_ID="36"  # ID do grupo de hosts no Zabbix
+HOSTGROUP_ID="29"  # ID do grupo de hosts no Zabbix
 
 # Configuração do phpIPAM
 PHPIPAM_URL="https://gerencia-redes.ufam.edu.br:8888/api/zabbix"
@@ -80,17 +80,17 @@ add_phpipam_ip() {
     RESPONSE=$(curl_add_ip "$IP" "$HOSTNAME" "$MAC" "$SUBNET_ID")
      echo "✅ Resposta do phpIPAM: $RESPONSE"
 }
-
+#Funcao para obter o id do phpipam da subrede que o endereco passado esta cadastrado
 get_subnet_id() {
     local NETWORK="$1"
     curl -s -X GET -H "token: $PHPIPAM_TOKEN" "$PHPIPAM_URL/subnets/search/$NETWORK" | jq -r '.data[].id'
 }
-
+#Funcao que troca o endereco a.b.c.d para o padrao a.b.0.0/16
 change_ip_to_subnet_16() {
     local IP="$1"
     echo "$IP" | sed -E 's/^([0-9]+\.[0-9]+)\.[0-9]+\.[0-9]+/\1.0.0\/16/'
 }
-
+#Funcao que adiciona via api no phpipam os dados ip mac nome do ativo
 curl_add_ip() {
     local IP="$1"
     local HOSTNAME="$2"
@@ -119,7 +119,7 @@ curl_add_ip() {
 # Obtém os hosts do grupo no Zabbix
 echo "🔹 Buscando hosts do grupo no Zabbix..."
 ZABBIX_HOSTS=$(get_zabbix_hosts_by_group)
-echo "passou"
+
 # Itera sobre os hosts e adiciona/atualiza no phpIPAM
 echo "$ZABBIX_HOSTS" | jq -c '.result[]' | while read HOST; do
     echo "######################################"
