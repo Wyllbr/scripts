@@ -18,7 +18,7 @@ get_zabbix_host_inventorymode(){
       "params": {
         "output": ["hostid"],
         "filter": {
-          "inventory_mode": ["0"]
+          "inventory_mode": ["-1"]
         }
       },
       "auth": "'"$ZABBIX_TOKEN"'",
@@ -63,7 +63,7 @@ if [[ -z "$ZABBIX_ID_HOST_INVENTORY_0" ]]; then
   echo "Nenhum host encontrado com inventory_mode = 0."
   exit 0
 fi
-#Laço de repetição para percorrer todo os host
+
 for hostid in  $ZABBIX_ID_HOST_INVENTORY_0; do
 	echo "Atualizando host zabbic om id: $hostid"
 	update_host_inventory_mode "$hostid"

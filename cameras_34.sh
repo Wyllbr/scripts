@@ -3,7 +3,7 @@
 # Configuração do Zabbix
 ZABBIX_URL="https://zabbix64.ufam.edu.br/api_jsonrpc.php"
 ZABBIX_TOKEN="35cf389316f46f41e34bd49cb0f577e5"
-HOSTGROUP_ID="49"  # ID do grupo de hosts no Zabbix
+HOSTGROUP_ID="34"  # ID do grupo de hosts no Zabbix
 
 # Configuração do phpIPAM
 PHPIPAM_URL="https://gerencia-redes.ufam.edu.br:8888/api/zabbix"
